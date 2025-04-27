@@ -1,6 +1,58 @@
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
+MYSENSORAPP:
+
+Objective
+Develop a mobile application that uses the phone’s built-in sensors to track and display user activity and environmental data.
+
+Features and Requirements
+1. Activity Tracking
+    • Use the accelerometer and gyroscope to detect and track the user’s activity (e.g., walking, running, stationary).
+    • Display the activity type (e.g., “Walking”) and duration in real-time.
+
+2. Medicine reminder
+    • log medicine with time
+    • alert user with notification offline if app is killed before 15 min
+
+3. Location-Based Features
+    • Use GPS to track the user’s location and plot their path on a map.
+    • Calculate the total distance traveled during the session.
+
+4. Dashboard
+    • Create a dashboard to display:
+    • Current activity type and duration.
+    • Total distance traveled.
+    • Ambient light level and atmospheric pressure.
+
+5. Data Logging
+    • Log the data (activity, light level, pressure, and location) locally using SQLite or AsyncStorage.
+    • Display a history screen where users can view previous sessions.
+
+6. Native Android Integration
+    • Implement a native Android feature (e.g., background service) to continue activity tracking even when the app is minimized.
+    • manage medicine reminder
+
+7. Optional (Bonus)
+    • Implement real-time data visualization using charts (e.g., D3.js or React Native charts).
+    • Allow users to export the session data as a CSV file.
+
+Technical Specifications
+1. Sensors to Use:
+    • Accelerometer
+    • Gyroscope
+    • Light sensor
+    • Barometer (optional, depending on device availability)
+    • GPS
+
+2. Development Tools:
+    • React Native for cross-platform development.
+    • Native Android integration using Kotlin for sensor data in the background.
+
+3. Design:
+      • Follow Material Design principles for a clean and intuitive UI.
+
+
 
 > **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
 
